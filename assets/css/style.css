@@ -1,0 +1,43 @@
+body {
+    width: 906px;
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerName {
+    background-color: #4aaaa5;
+    color:white;
+    font-size:26px;
+    font-weight: bold;
+    padding:20px;
+}
+
+.headerLink {
+    color:#777777;
+    padding:15px;
+    border-right: 1px solid #cccccc;
+}
+
+.headerLink:last-child {
+    border-right: none;
+}
+
+header {
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+}
+
+/* Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd` */
+
+   /* For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`. */
