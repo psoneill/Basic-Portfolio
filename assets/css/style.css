@@ -2,7 +2,7 @@ body {
     width: 960px;
     margin:auto;
     color:#777777;
-    background-color:#cccccc;
+    background-image:url(../images/what-the-hex.png);
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
 }
@@ -17,7 +17,7 @@ body {
 
 .headerName {
     background-color: #4aaaa5;
-    color:white;
+    color:#ffffff;
     font-size:26px;
     font-weight: bold;
     padding:20px;
@@ -30,6 +30,12 @@ body {
     border-right: 1px solid #cccccc;
 }
 
+.headerLink:hover {
+    color:#ffffff;
+    background-color:#4f87ee;
+    transition:1s;
+}
+
 .headerLink:last-child {
     border-right: none;
 }
@@ -39,6 +45,19 @@ body {
     border: 1px solid #dddddd;
     padding:20px;
     margin-top:20px;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    background-color:#666666;
+    color:#ffffff;
+    font-size:10px;
+    text-align:center;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    padding:1% 1% 0.2% 1%;
 }
 
 h1 {
@@ -63,9 +82,20 @@ textarea {
 
 button {
     background-color:#4aaaa5;
-    color:white;
+    color:#ffffff;;
     border:none;
     padding:10px 30px 10px 30px;
+}
+
+#img_headshot {
+    float:left;
+    width:220px;
+    padding-right:20px;
+}
+
+.aboutText {
+    font-size:20px;
+    line-height:30px;
 }
 
 .portfolioContainer {
@@ -81,7 +111,7 @@ button {
 
 .portfolioLabel {
     background-color:#4aaaa5;
-    color:white;
+    color:#ffffff;;
     width:100%;
     text-align: center;
     font-size:20px;
@@ -90,11 +120,3 @@ button {
     padding:20px 0px 20px 0px;
     z-index: 2;
 }
-
-/* Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd` */
-
-   /* For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`. */
